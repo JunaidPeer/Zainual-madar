@@ -3,6 +3,8 @@ body {
   font-family: konnectMedium;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  
 }
 
 @font-face {
@@ -17,27 +19,35 @@ body {
   font-family: konnectMedium;
   src: url(./fonts/KonnectMedium.otf);
 }
+@font-face {
+  font-family: hidyath;
+  src: url(./fonts/hidayath.ttf);
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .btn {
-  background: linear-gradient(90deg, #34E2D5 0%, #17A7B6 100%);
+  background: #FF0000;
+
   border: none;
   border-radius: 8px;
-  width: 400px;
+  min-width: 400px;
   height: 76px;
 
-  font-family: konnectMedium;
+  font-family: Poppins;
   font-style: medium;
   font-weight: 500;
   font-size: 20px;
   color: #FFFFFF;
   cursor: pointer;
+  filter: blur(0.5px);
 }
 
 .btn1 {
   
 width: 200px;
 height: 76px;
-border: 2px solid #17A7B6;
+border: 2px solid #17b661;
 border-radius: 6px;
 
 flex-direction: row;
@@ -47,10 +57,35 @@ padding: 14px 31px;
 margin: auto;
 margin-left: 20px;
 
-color: #17A7B6;
-font-family: konnectMedium;
+color: #17b661;
+font-family: Poppins;
 font-style: medium;
 font-weight: 500;
 font-size: 20px;
+
 cursor: pointer;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+ flex: 1;
+ font-family: poppins;
+ font-size: 22px;
+font-style: bold;
+color: #FFFFFF;
+list-style-type: none;
+ cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: silver;
+  cursor: pointer;
+  margin-right: 15px;
+ 
+}
+a:hover {
+  color: #17A7B6;
 }

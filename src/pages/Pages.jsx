@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Home'
-
+// import Wrap from './Wrap'
 import {Route, Routes} from 'react-router-dom'
 
 function Pages() {
@@ -8,7 +8,7 @@ function Pages() {
     
         <Routes>
             <Route path="/" element={<Home />} />
-     
+     {/* <Route path="/wrap" element={<Wrap />} /> */}
         </Routes>
     
 
