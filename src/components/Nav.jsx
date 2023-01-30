@@ -20,7 +20,7 @@ const Nav = () => {
           <li>Insights</li>
           <li><Icons><a href="https://www.instagram.com/syed_zainul_madar/"><AiFillInstagram></AiFillInstagram></a>
           <a href="https://www.facebook.com/profile.php?id=100063955095189"> <FaFacebookSquare></FaFacebookSquare></a>
-          <a href=""> <FaTwitterSquare></FaTwitterSquare></a>
+          <a href="https://www.youtube.com/@silsilaealviyaomadariya5769"> <FaTwitterSquare></FaTwitterSquare></a>
           <a href="https://www.youtube.com/@silsilaealviyaomadariya5769"><BsYoutube></BsYoutube></a>
           </Icons></li>
         </ul>
